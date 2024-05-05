@@ -1,0 +1,137 @@
+
+.content-page1 {
+    /* background-color: rgba(127, 255, 212, 0.268); */
+    display: flex;
+
+    flex-direction: column;
+}
+
+.text-p1 {
+    display: flex;
+}
+
+.p1-Left {
+    width: 70%;
+    /* background-color: #181818; */
+}
+
+.p1-Left h1 {
+    margin: 30px 100px;
+    width: 800px;
+    color: #fff;
+    font-size: 60px;
+}
+
+.p1-Left p {
+    font-size: 20px;
+    margin: 50px 300px;
+    width: 650px;
+    color: #ffffff;
+}
+
+
+.p1-Right {
+    height: 25vh;
+    width: 30%;
+    display: flex;
+    /* background-color: #11537b; */
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+#Getintouch {
+    background-color: #ffffff;
+    width: 120px;
+    font-weight: 600;
+    /* margin-left:100px; */
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+    color: #FFF;
+}
+
+#Getintouch:hover {
+    background-color: #14547e;
+    color: #fff;
+
+}
+
+#Getintouch {
+    color: #01131F;
+    text-decoration: none;
+}
+
+.content-page2 {
+    background: url("https://th.bing.com/th/id/OIG2.TDB5aGMP7tfDP86_7zZT?w=1024&h=1024&rs=1&pid=ImgDetMain");
+    /* background-color: aqua; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-page3 {
+    margin: 7rem;
+    display: flex;
+    height: 45rem;
+}
+
+.p3-left {
+    height: 45.3rem;
+    width: 50%;
+    border-bottom: 3px solid #FFF;
+}
+
+.p3-left h1 {
+    font-size: 50px;
+    width: 40rem;
+    margin: 0;
+    color: #fff;
+}
+
+.p3-left p {
+    font-weight: 200;
+    font-size: 30px;
+    color: #fff;
+
+}
+
+.p3-Right {
+    margin-left: 20px;
+    background: url('https://th.bing.com/th/id/OIG1.p2iTkos6nB8hx33jOgs0?pid=ImgGn');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 50%;
+    /* background-color: rgba(82, 164, 26, 0.203); */
+
+}
+
+.content-page4 {
+
+    /* background-color: rgba(127, 255, 212, 0.623); */
+    margin: 7rem;
+    display: flex;
+    justify-content: space-between;
+    height: 45rem;
+}
+
+.p4-left {
+    background: url('https://th.bing.com/th/id/OIG2.jleGp0IejFFvvfMacP5H?pid=ImgGn');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: antiquewhite; */
+}
+
+.p4-Right {
+    background: url('https://th.bing.com/th/id/OIG3.55cO949cSWPvNd_M3.rw?pid=ImgGn');
+    /* background-color: aquamarine; */
+}
+
+.p4-left,
+.p4-Right {
+    width: 40%;
+}

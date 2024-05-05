@@ -1,0 +1,143 @@
+.project-content-p1 {
+    /* background-color: #f8c92f; */
+    margin: 5rem 10rem;
+    height: 45rem;
+    display: flex;
+}
+
+.p-content-left {
+    font-size: 30px;
+    color: #FFF;
+    padding-left: 70px;
+    /* background-color: aliceblue; */
+    width: 50%;
+}
+
+.p-content-right {
+    /* background-color: antiquewhite; */
+    width: 50%;
+    display: flex;
+}
+
+.image-1 {
+    background: url('https://th.bing.com/th/id/OIG4.GSYRpyLq5W_lVkwHHYKk?w=1024&h=1024&rs=1&pid=ImgDetMain');
+    background-size: cover;
+    width: 95%;
+}
+
+.image-2 {
+    background: url('https://th.bing.com/th/id/OIG1.DcUzkjJx72N3om.ueQIu?pid=ImgGn');
+    background-size: cover;
+    width: 2.5%;
+}
+
+.image-3 {
+    background: url('https://th.bing.com/th/id/OIG4.ljks1t6aRV4eql6gu_7A?w=1024&h=1024&rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-color: rgb(198, 249, 180);
+    width: 2.5%;
+}
+
+.image-4 {
+    background: url('https://th.bing.com/th/id/OIG2.tUkh2r1jPKUyp8WOKNWf?w=1024&h=1024&rs=1&pid=ImgDetMain');
+    background-size: cover;
+    width: 95%;
+}
+
+.image-6 {
+    background: url('https://th.bing.com/th/id/OIG3.qmyGHsJN1hfQfJ5EvtJs?w=1024&h=1024&rs=1&pid=ImgDetMain');
+    background-size: cover;
+    width: 2.5%;
+}
+
+.image-5 {
+    background: url('https://th.bing.com/th/id/OIG3.8uv.buvG5CYQiwv58Kai?pid=ImgGn');
+    background-size: cover;
+    background-color: rgb(198, 249, 180);
+    width: 2.5%;
+}
+
+.btn-left,
+.btn {
+    color: #FFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 50px;
+    padding-top: 60%;
+    border: none;
+    /* background-color: #093450; */
+}
+
+.btn-left:hover {
+    background-color: #30698f38;
+
+}
+
+@media only screen and (max-width: 767px) {
+  .Nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .Left-content,
+  .Right-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .Logo {
+    padding: 10px 0;
+  }
+
+  .Right-content ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .Right-content ul li {
+    margin: 10px 0;
+  }
+
+  .project-content-p1 {
+    flex-direction: column;
+    margin: 2rem 1rem;
+    height: auto;
+  }
+
+  .p-content-left,
+  .p-content-right {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .p-content-left h2 {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .p-content-right {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-1,
+  .image-4 {
+    width: 100%;
+  }
+
+  .image-2,
+  .image-3,
+  .image-5,
+  .image-6 {
+    width: 95%;
+  }
+
+  .btn-left,
+  .btn {
+    padding-top: 30%;
+    font-size: 30px;
+  }
+}
